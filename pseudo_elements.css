@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+}
+
+h1::first-letter {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2cm;
+    color: greenyellow;
+    text-shadow: 5px 8px 9px red;
+}
+
+h1{
+    color: aqua;
+}
+
+
+h2::first-line {
+    font-family: Lucida Calligraphy;
+    font-size: 1cm;
+    color: brown;
+    text-shadow: 5px 8px 9px greenyellow;
+}
+
+p::before{
+    content: "'Hello World.'!!!";
+    color: hotpink;
+    font-size: 40px;
+}
+
+span::after{
+    content: "Private Ltd";
+    font-size: 30px;
+    color: red;
+}
+
+h4::selection{
+    color: blueviolet;
+    background-color: wheat;
+}
+
+h1.example::first-letter{
+    color: seagreen;
+    font-size: 2cm;
+    font-family: cursive;
+}

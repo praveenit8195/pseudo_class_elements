@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+}
+
+h1:hover{
+    color: greenyellow;
+}
+
+.hover:hover{
+    color: red;
+
+}
+
+a:active{
+    color: yellow;
+}
+
+a:visited{
+    color: red;
+}
+
+p:lang(dt){
+    font-family: cursive;
+    color: brown;
+}
+
+input:focus{
+    border: 5px solid lightblue;
+    box-shadow: 10px 10px 10px blue;
+    color: blue;
+    width: 300px;
+}
+
+h2:first-child {
+    text-indent: 200px;
+    color: violet;
+}
+
+h3{
+    display: none;
+    background-color: aqua;
+    color: chartreuse;
+    padding: 20px;
+}
+
+.tooltip-hover{
+    font-size: 40px;
+}
+
+.tooltip-hover:hover h3{
+    display: block;
+}
+
+div.hello:hover{
+    color: coral;
+    font-size: 80px;
+}
